@@ -1,0 +1,21 @@
+{
+
+	"manifest_version": 2,
+	"name": "BigBlueButton Smiley",
+	"description": "Ermöglicht es Smilies in einem BigBlueButton-Chat zu verwenden",
+	"version": "1.0",
+	"author": "Lukas Kurz",
+	"permissions": [
+		"https://*/html5client/join?sessionToken=*",
+		"https://*.lehrerfortbildung-bw.de/*",
+		"tabs"
+	], 
+	"content_scripts": [{
+		"matches": ["https://*/html5client/join?sessionToken=*", "https://*.lehrerfortbildung-bw.de/*"],
+		"js": ["script.js"]
+    }],
+	"icons": {
+		"25": "res/icon25.png",
+		"48": "res/icon48.png"
+	}
+}
