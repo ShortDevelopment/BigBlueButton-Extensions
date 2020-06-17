@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "BigBlueButton Smiley",
   "description": "Ermöglicht es Smilies in einem BigBlueButton-Chat oder Moodle zu verwenden",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Lukas Kurz",
   "permissions": [
     "https://*/html5client/join?sessionToken=*",
