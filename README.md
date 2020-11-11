@@ -1,4 +1,7 @@
 # BigBlueButton-Smiliey
+   
+*Dieses Addon wird **nicht mehr entwickel**t! Nutzen Sie einfach die Tastenkombination Windows + Punkt um Smileys ein zu fügen!*   
+   
 Use smilies in a BigBlueButton or Moodle chat.<br/>
 Install Addon, go into BigBlueButton-Meeting / Moodle-Chat and right click on a textarea...
 
