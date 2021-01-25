@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "BigBlueButton Extensions",
   "description": "Erleichtert die Bediehnung von BBB",
-  "version": "1.1",
+  "version": "2.0",
   "author": "Lukas Kurz",
   "permissions": [
     "https://*/html5client/join?sessionToken=*",
