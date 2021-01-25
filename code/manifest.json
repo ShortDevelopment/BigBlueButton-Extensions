@@ -1,21 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "BigBlueButton Smiley",
-  "description": "Ermöglicht es Smilies in einem BigBlueButton-Chat oder Moodle zu verwenden",
+  "name": "BigBlueButton Extensions",
+  "description": "Erleichtert die Bediehnung von BBB",
   "version": "1.1",
   "author": "Lukas Kurz",
   "permissions": [
     "https://*/html5client/join?sessionToken=*",
-    "https://*.lehrerfortbildung-bw.de/*",
-    "https://*/moodle/*",
     "tabs"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://*/html5client/join?sessionToken=*",
-        "https://*.lehrerfortbildung-bw.de/*",
-        "https://*/moodle/*"
+        "https://*/html5client/join?sessionToken=*"
       ],
       "js": [
         "script.js"

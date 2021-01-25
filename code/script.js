@@ -1,166 +1,163 @@
-let injectionID = "lhdrrdhbkgtveszetburdtuudv";
-let injectionHTML = `<div class="contextmenu_i_lk">
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😀</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😁</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😂</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😃</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😄</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😅</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😆</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😇</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😈</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😉</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😊</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😋</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😌</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😍</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😎</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😏</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😐</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😑</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😒</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😓</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😔</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😕</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😖</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😗</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😘</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😙</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😚</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😛</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😜</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😝</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😞</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😟</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😠</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😡</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😢</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😣</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😤</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😥</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😦</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😧</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😨</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😩</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😪</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😫</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😬</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😭</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😮</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😯</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😰</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😱</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😲</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😳</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😴</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😵</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😶</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😷</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😸</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😹</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😺</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😻</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😼</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😽</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😾</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">😿</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙀</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙁</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙂</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙃</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙄</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙅</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙆</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙇</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙈</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙉</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙊</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙋</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙌</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙍</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙎</button>
-	<button onmousedown="contextmenu_i_lk_click(this, event);">🙏</button>
-</div>
-<style>
-	.contextmenu_i_lk{
-		border:2px solid #0f70d7;
-		border-radius:5px;
-		padding:3px;
-		background-color: rgb(243, 246, 249);
-		display:inline-block;
-		width:400px;
-		max-height:100px;
-		overflow-y:auto;
-		text-align:center;
-	}
-	.contextmenu_i_lk button{
-		display:inline-block;
-		margin:5px;
-		border-radius:50%;
-		padding:8px;
-		background:transparent;
-		border:none;
-		cursor:pointer;
-		font-size:20px;
-	}
-	.contextmenu_i_lk button:hover{
-		box-shadow: 0px 0px 0px 2px #54a1f3, inset 0px 0px 0px 1px #0f70d7;
-	}
-</style>`;
 
-let injectJS = `function contextmenu_i_lk_click(ele, e) {
-		document.dispatchEvent(new CustomEvent('contextmenu_i_lk_ele_insert', {
-			detail: ele.innerText,
-		}));
-	}`;
+// #region Utilities
 
-const inject = () => {
-	let div = document.getElementById(injectionID);
-	if (div == undefined || div == null){
-		div = document.createElement("div");
-		div.setAttribute("id", injectionID);
-		div.setAttribute("tabindex", "-1");
-		div.id = injectionID;
-		div.style.position = "fixed";
-		div.style.zIndex = "10000";
-		div.style.outline = "none";
-		div.innerHTML = injectionHTML;
-		document.body.appendChild(div);
-		div.addEventListener("blur", () => {
-			div.style.display = "none";
-		});
-		let js = document.createElement("script");
-		js.innerHTML = injectJS;
-		document.body.appendChild(js);
-	}
-	let eles = document.getElementsByTagName("textarea");
-	for(let i = 0; i < eles.length; i++){
-		let ele = eles[i];
-		if(ele.getAttribute("data-inject") != "true"){			
-			ele.setAttribute("data-inject", "true");
-			ele.addEventListener("contextmenu", (e) => {
-				e.preventDefault();
-				let div = document.getElementById(injectionID);				
-				let style = div.style;
-				style.display = "block";
-				div.focus();
-				let rect = ele.getBoundingClientRect();
-				style.left = (rect.left - 2) + "px";
-				style.top = (rect.top - 110) + "px";
-				window.contextmenu_i_lk_ele = ele;
-			});
-		}
-	}
+/**
+ * Executes xPath and returns results
+ * @param {string} query
+ * @param {HTMLElement} parent
+ * @returns {HTMLElement[]}
+ */
+const xPath = (xpath, parent = document) => {
+    let results = [];
+    let query = document.evaluate(xpath, parent, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+    for (let i = 0, length = query.snapshotLength; i < length; ++i) {
+        results.push(query.snapshotItem(i));
+    }
+    return results;
+};
+
+// #endregion
+
+// #region Status
+
+/**
+ * Checks if microphone is muted
+ * @returns {boolean}
+ * */
+const hasStatus = () => {
+    const currentUser = document.querySelector(".userItemContents--C2UQJ");
+    currentUser.click();
+    const result = !(xPath("//*[text()='Status zurücksetzen']").length == 0);
+    currentUser.click();
+    return result;
+};
+/**
+ * Sets the status icon to raised hand
+ * @returns {void}
+ * */
+const raiseHand = () => {
+    const currentUser = document.querySelector(".userItemContents--C2UQJ");
+    currentUser.click();
+    const subMenu = xPath("//*[text()='Status setzen']")[0].closest("li");
+    subMenu.click();
+    const raiseHandButton = xPath("//*[text()='Hand heben']")[0].closest("li");
+    raiseHandButton.click();
+};
+/**
+ * Clears any status
+ * @returns {void}
+ * */
+const clearStatus = () => {
+    const currentUser = document.querySelector(".userItemContents--C2UQJ");
+    currentUser.click();
+    const clearStatus = xPath("//*[text()='Status zurücksetzen']")[0].closest("li");
+    clearStatus.click();
+};
+
+// #endregion
+
+// #region Mute
+
+/**
+ * Checks if microphone is muted
+ * @returns {boolean}
+ * */
+const isMuted = () => {
+    return (document.querySelector(".actionsbar--Z1ant6U .icon-bbb-unmute") === null);
+};
+/**
+ * Mutes the microphone
+ * @returns {void}
+ * */
+const mute = () => {
+    const muteButton = document.querySelector(".actionsbar--Z1ant6U .icon-bbb-unmute").closest("button");
+    muteButton.click();
+}
+/**
+ * Unmutes the microphone
+ * @returns {void}
+ * */
+const unmute = () => {
+    const muteButton = document.querySelector(".actionsbar--Z1ant6U .icon-bbb-mute").closest("button");
+    muteButton.click();
 }
 
-const insert = (e) => {
-	window.contextmenu_i_lk_ele.focus();
-	//window.contextmenu_i_lk_ele.innerHTML += e.detail;
-	window.contextmenu_i_lk_ele.value += e.detail;
-	document.getElementById(injectionID).style.display = "none";
-}
+// #endregion
 
-document.addEventListener("DOMNodeInsertedIntoDocument", inject);
-document.addEventListener("DOMNodeInserted", inject);
+// #region Notifications
 
-document.addEventListener("contextmenu_i_lk_ele_insert", insert);
+/*
+ * Big Blue Button Chat Notifications
+ * */
+
+// https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe
+
+const config = { attributes: false, childList: true, subtree: true };
+const ObserverCallbackFunc = () => {
+    let snd = new Audio("data:audio/wav;base64,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qJrx4KOQjahZxWbcZgztj2c49nKmkId44S71j0c8eV9yDK6uPRzx5X18eDvjvQ6yKo9ZSS6l//8elePK/Lf//IInrOF/FvDoADYAGBMGb7FtErm5MXMlmPAJQVgWta7Zx2go+8xJ0UiCb8LHHdftWyLJE0QIAIsI+UbXu67dZMjmgDGCGl1H+vpF4NSDckSIkk7Vd+sxEhBQMRU8j/12UIRhzSaUdQ+rQU5kGeFxm+hb1oh6pWWmv3uvmReDl0UnvtapVaIzo1jZbf/pD6ElLqSX+rUmOQNpJFa/r+sa4e/pBlAABoAAAAA3CUgShLdGIxsY7AUABPRrgCABdDuQ5GC7DqPQCgbbJUAoRSUj+NIEig0YfyWUho1VBBBA//uQZB4ABZx5zfMakeAAAAmwAAAAF5F3P0w9GtAAACfAAAAAwLhMDmAYWMgVEG1U0FIGCBgXBXAtfMH10000EEEEEECUBYln03TTTdNBDZopopYvrTTdNa325mImNg3TTPV9q3pmY0xoO6bv3r00y+IDGid/9aaaZTGMuj9mpu9Mpio1dXrr5HERTZSmqU36A3CumzN/9Robv/Xx4v9ijkSRSNLQhAWumap82WRSBUqXStV/YcS+XVLnSS+WLDroqArFkMEsAS+eWmrUzrO0oEmE40RlMZ5+ODIkAyKAGUwZ3mVKmcamcJnMW26MRPgUw6j+LkhyHGVGYjSUUKNpuJUQoOIAyDvEyG8S5yfK6dhZc0Tx1KI/gviKL6qvvFs1+bWtaz58uUNnryq6kt5RzOCkPWlVqVX2a/EEBUdU1KrXLf40GoiiFXK///qpoiDXrOgqDR38JB0bw7SoL+ZB9o1RCkQjQ2CBYZKd/+VJxZRRZlqSkKiws0WFxUyCwsKiMy7hUVFhIaCrNQsKkTIsLivwKKigsj8XYlwt/WKi2N4d//uQRCSAAjURNIHpMZBGYiaQPSYyAAABLAAAAAAAACWAAAAApUF/Mg+0aohSIRobBAsMlO//Kk4soosy1JSFRYWaLC4qZBYWFRGZdwqKiwkNBVmoWFSJkWFxX4FFRQWR+LsS4W/rFRb/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VEFHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU291bmRib3kuZGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAwNGh0dHA6Ly93d3cuc291bmRib3kuZGUAAAAAAAAAACU=");
+    snd.play();
+};
+
+let observer1, observer2 = null;
+
+/**
+ * Starts chat notifications
+ * @returns {void}
+ * */
+const startNotify = () => {
+    // Observer currently oppened chat
+    const ele = document.getElementsByClassName("messageListWrapper--1WFBOk")[0];
+    observer1 = new MutationObserver(() => {
+        console.info("Neue Nachricht!");
+        ObserverCallbackFunc();
+    });
+    observer1.observe(ele, config);
+    // Observer chat list
+    const ele2 = document.getElementsByClassName("messages--Z1feno8")[0];
+    observer2 = new MutationObserver(() => {
+        console.info("Neuer Chat!");
+        ObserverCallbackFunc()
+    });
+    observer2.observe(ele2, config);
+};
+/**
+ * Stops chat notifications
+ * @returns {void}
+ * */
+const StopNotify = () => {
+    observer1.disconnect();
+    observer2.disconnect();
+};
+
+window.addEventListener("load", () => {
+    
+});
+
+// #endregion
+
+
+// #region UI / User Interaction
+
+document.addEventListener("keydown", (e) => {
+    const key = e.key.toLowerCase();
+    switch (key) {
+        case "m":
+            if (isMuted()) {
+                unmute();
+            } else {
+                mute();
+            }
+            break;
+        case "h":
+            if (hasStatus()) {
+                clearStatus();
+            } else {
+                raiseHand();
+            }
+            break;
+    }
+});
+
+// #endregion
+
+console.info("✋ Loaded BBB Extensions ❗");
