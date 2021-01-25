@@ -1,15 +1,6 @@
-<<<<<<< Updated upstream
-# BigBlueButton-Smiliey
-   
-*Dieses Addon wird **nicht mehr entwickel**t! Nutzen Sie einfach die Tastenkombination Windows + Punkt um Smileys ein zu fügen!*   
-   
-Use smilies in a BigBlueButton or Moodle chat.<br/>
-Install Addon, go into BigBlueButton-Meeting / Moodle-Chat and right click on a textarea...
-=======
 # BigBlueButton-Extensions
 Mute by pressing "m" on you keyboard.   
-Raise or lower your hand by pressing "h".   
->>>>>>> Stashed changes
+Raise or lower your hand by pressing "h".
 
 ## Download
 <b>Firefox + Edge + Chrome:</b> Dateien herunterladen und manuell installieren:<br/>
