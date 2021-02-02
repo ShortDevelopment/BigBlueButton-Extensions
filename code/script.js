@@ -130,7 +130,7 @@ const StopNotify = () => {
 };
 
 window.addEventListener("load", () => {
-    
+
 });
 
 // #endregion
@@ -140,6 +140,10 @@ window.addEventListener("load", () => {
 
 document.addEventListener("keydown", (e) => {
     const key = e.key.toLowerCase();
+    if (!e.ctrlKey) {
+        return;
+    }
+    let found = true;
     switch (key) {
         case "m":
             if (isMuted()) {
@@ -155,6 +159,12 @@ document.addEventListener("keydown", (e) => {
                 raiseHand();
             }
             break;
+        default:
+            found = false;
+            break;
+    }
+    if (!found) {
+        e.preventDefault();
     }
 });
 
