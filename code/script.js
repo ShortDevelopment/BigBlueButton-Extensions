@@ -163,7 +163,7 @@ document.addEventListener("keydown", (e) => {
             found = false;
             break;
     }
-    if (!found) {
+    if (found) {
         e.preventDefault();
     }
 });
